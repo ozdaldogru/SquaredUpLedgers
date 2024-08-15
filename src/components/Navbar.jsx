@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import Logo from "../images/logo.svg";
 import "../style/Navbar.css";
 import {  HamburgerMenuClose, HamburgerMenuOpen } from "../Icons/Icons.jsx";
@@ -58,15 +58,9 @@ function Navbar() {
               </NavLink>
             </li>
             <li className="nav-item" id="btn">
-              <NavLink
-                exact
-                to="/contact"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
+              <Link className="nav-links" to="https://calendly.com/squaredupledgers" target={"_blank"}>
                 Contact
-              </NavLink>
+              </Link>
             </li>
 
           </ul>

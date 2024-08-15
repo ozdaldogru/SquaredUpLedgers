@@ -1,10 +1,9 @@
 .carousel {
   display: flex;
-  height: 800px;
+  height: 790px;
   padding-inline: 0.3%;
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 10px;
-
 }
 
 .carousel_wrapper {
@@ -21,7 +20,7 @@
   height: 100%;
   overflow: hidden;
   border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 0px 11px 3px rgba(14, 2, 2, 0.15);
   box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15);
   opacity: 0;
   pointer-events: none;
@@ -48,12 +47,13 @@
   display: flex;
   padding: 40px 30px;
   align-items: flex-end;
+  justify-content: center;
 }
 
 .card_title {
   color: white;
   font-size: 50px;
-  padding: 25px;
+  margin: 50px;
 
 }
 
@@ -108,7 +108,13 @@
 
   .carousel {
     display: flex;
+ 
+  }
 
+  .card_title {
+    color: white;
+    font-size: 35px;
+    margin: 25px;
   
   }
 

@@ -1,6 +1,5 @@
 import React from "react";
 import { InlineWidget } from "react-calendly";
-import "../style/Contact.css"
 
 
 function Contact() {

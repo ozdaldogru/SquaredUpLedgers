@@ -50,6 +50,7 @@ function Carousel({ images }) {
               <div className="card_overlay">
                 <h2 className="card_title">{image.title}</h2>
               </div>
+
             </div>
           );
         })}

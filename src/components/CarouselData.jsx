@@ -12,11 +12,11 @@ export const services = [
     title: "Payroll",
   },
   {
-    image: "/images/sul06.jpg",
+    image: "/images/sul09.jpg",
     title: "Ledgers",
   },
   {
-    image: "/images/sul07.jpg",
+    image: "/images/sul08.jpg",
     title: "Tax",
   },
 ];

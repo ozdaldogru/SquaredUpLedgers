@@ -1,48 +1,83 @@
-
-p, .image {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
-  margin: 5px;
-}
-
 h2, h3 {
     text-align: center;
     text-decoration: underline;
   }
 
+  a {
+    text-decoration: none;
+  }
+
 .home {
 padding-inline: 0.3%;
-
 }
 
 .home1, .home2, .home3, .home4 {
   border: solid 1px;
   border-radius: 10px;
   margin-top: 5px;
-
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
 }
 
 .home1 {
   background-color: #49121d;
   color:antiquewhite;
-
 }
 
 .home2{
   background-color: grey;
-
 }
 
 .home3 {
   background-color: #E04C6A;
-
 }
 
 .home4 {
-  background-color: #1798a3;
-  
+  background-color: #1798a3;  
+}
+
+.btn {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+button {
+  border-radius: 8px;
+  border: 2px solid ;
+  padding: 0.6em 1em;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.5s;
+
+}
+button:hover {
+  background-color: orange;
+  color: black;
+}
+
+
+@media screen and (max-width: 720px) {
+
+  .home1, .home2, .home3, .home4 {
+    border: solid 1px;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+
 }

@@ -3,19 +3,21 @@
     flex-direction: row;
     justify-content:space-evenly;
     margin: 2% 3% 3%  3%;
+    font-size: 18px;
 }
 
-
+.kyle {
+    width: 50%;
+}
 
 .paragraph {
     margin:1% ;
-    width: 100%;
+    padding-left: 2%;
     border-left: solid 6px lightgray;
 }
 
 
 .about-list {
-    text-align: left;
     font-style: italic;
 }
 
@@ -34,10 +36,9 @@
   display: flex;
   justify-items: left;
   align-items: center;
-
 }
 .paragraph {
-    border-top: solid 6px grey;
+    border-top: solid 6px lightgray;
     border-left: none;
 }
 }
@@ -45,7 +46,7 @@
 @media screen and (max-width: 720px) {
    
     .paragraph {
-        border-top: solid 6px grey;
+        border-top: solid 6px lightgray;
         border-left: none;
     }
     
