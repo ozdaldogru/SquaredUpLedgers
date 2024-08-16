@@ -59,7 +59,7 @@ function Home() {
             <h2>Need Help With Your Accounting?</h2>
             <p>We are here to help you with everything from monthly reporting, to bookkeeping, personal income taxes, and QuickBooks problem solving.</p>
             <p>Let us help you get your business in order.</p>
-            <div className="btn"><a href="http://localhost:3003/contact" target="#blank"><button>Get A Quote</button></a></div>
+            <div className="btn"><a href="https://calendly.com/squaredupledgers" target="#blank"><button>Get A Quote</button></a></div>
           </div>
         </div>
       </div>
