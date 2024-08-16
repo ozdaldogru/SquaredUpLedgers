@@ -126,5 +126,10 @@
       cursor: pointer;
       color: #1798a3;
     }
+
+    #btn {
+      border: none;
+    }
+
   }
   
