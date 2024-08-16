@@ -46,7 +46,9 @@ function Home() {
           <p>Squared Up Ledgers has over 10 years experience working with small business. I am a QBO certified pro advisor and a designated professional bookkeeper (CPB).</p>
           </div>
             <div className="image">
-              <img src={CPB} height="320" width="480" alt="CPB Certification" />
+              <img src={CPB} height="320" width="480" alt="CPB Certification" />              
+            </div>
+            <div className="image">     
               <img src={QBO} height="160" width="120" alt="CPB Certification" />
             </div>
         </div>

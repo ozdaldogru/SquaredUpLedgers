@@ -1,20 +1,17 @@
 .about {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
     margin: 2% 3% 3%  3%;
     font-size: 18px;
-}
-
-.kyle {
-    width: 50%;
 }
 
 .paragraph {
     margin:1% ;
     padding-left: 2%;
     border-left: solid 6px lightgray;
+
 }
+
 
 
 .about-list {
@@ -26,20 +23,22 @@
 .about {
     display: flex;
     flex-direction: column;
-    justify-content:space-evenly;
     margin: 2%;
-
+    width: 100%;
 }
 
 .kyle 
 {
-  display: flex;
-  justify-items: left;
+  justify-items: center;
+  justify-content: center;
   align-items: center;
+
+
 }
 .paragraph {
     border-top: solid 6px lightgray;
     border-left: none;
+    width: 100%;
 }
 }
 
@@ -48,6 +47,7 @@
     .paragraph {
         border-top: solid 6px lightgray;
         border-left: none;
+        width: 100%;
     }
     
     }

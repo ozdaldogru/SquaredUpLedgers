@@ -104,10 +104,29 @@
 }
 
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1200) {
 
   .carousel {
     display: flex;
+    height: 480px;
+ 
+  }
+  .card_title {
+    color: white;
+    font-size: 35px;
+    margin: 25px;
+  
+  }
+
+  }
+
+
+
+@media screen and (max-width: 768px) {
+
+  .carousel {
+    display: flex;
+    height: 360px;
  
   }
 

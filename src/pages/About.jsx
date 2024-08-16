@@ -8,11 +8,13 @@ function About() {
     <>
     <div className="about">
 
-    <div className="kyle"><img src={Kyle} height="720" width="720" alt="Kyle stands couple feet from the wall that has lots of full loaded with books" /></div>
+    <div className="kyle">
+      <img src={Kyle} height="480" width="480" alt="Kyle stands couple feet from the wall that has lots of full loaded with books" />
+    </div>
 
 
     <div className="paragraph">
-    <div>
+    <div className="sub-paragraph">
       <p>
       I am a degreed accountant and a Certified Professional Bookkeeper who is the owner of a full cycle bookkeeping and tax for online businesses called Squared Up Ledgers. 
       </p>
@@ -23,7 +25,7 @@ function About() {
       </div>
       <br />
 
-      <div>
+      <div className="sub-paragraph">
       <p>
       My background includes having worked as a staff accountant, senior auditor, commercial pilot, and flight service specialist. 
 
@@ -36,7 +38,7 @@ function About() {
       </div>
       <br />
 
-      <div>
+      <div className="sub-paragraph">
       <p>
       Throughout my career I have qualified for different roles that have demanded my technical and leadership capabilities. 
       </p>
@@ -48,7 +50,7 @@ function About() {
       </div>
       <br />
 
-      <div>
+      <div className="sub-paragraph">
       <p>
       Throughout this I have maintained an interest in different business sectors and have grown this business to include the following team:
       </p>
