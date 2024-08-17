@@ -13,7 +13,6 @@
 }
 
 
-
 .about-list {
     font-style: italic;
 }
@@ -23,37 +22,39 @@
 .about {
     display: flex;
     flex-direction: column;
-    margin: 2%;
-    width: 100%;
-}
-
-.kyle 
-{
-  justify-items: center;
-  justify-content: center;
-  align-items: center;
-
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
 
 }
+
+
 .paragraph {
     border-top: solid 6px lightgray;
     border-left: none;
-    width: 100%;
 }
 }
 
 
 
- @media screen and (max-width: 1200px) {
+ @media screen and (max-width: 720px) {
 
 
     .kyle
     {
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
         width: 360px;
-        height: 420px;
-   
-    
+        height: 360px;
     }
- width: 720px;
+
+    .paragraph {
+        margin:1% ;
+        padding-left: 0;
+   
+    }
+
 }
     
