@@ -18,7 +18,7 @@ function Navbar() {
           <div className="navbar-item">
           <NavLink exact to="/" className="nav-logo">
             <span className="icon">
-            <img src={Logo} height="100" width="350" alt="Squared Up Ledgers's logo" />
+            <img className="nav-logo" src={Logo} height="100" width="350" alt="Squared Up Ledgers's logo" />
             </span>
           </NavLink>
           </div>
@@ -62,12 +62,8 @@ function Navbar() {
                 Contact
               </Link>
             </li>
-
           </ul>
           </div>
-
-
-
           <div className="nav-icon" onClick={handleClick}>
             {/* <i className={click ? "fas fa-times" : "fas fa-bars"}></i> */}
 

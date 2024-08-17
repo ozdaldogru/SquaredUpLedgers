@@ -9,7 +9,7 @@ function About() {
     <div className="about">
 
     <div className="kyle">
-      <img src={Kyle} height="480" width="480" alt="Kyle stands couple feet from the wall that has lots of full loaded with books" />
+      <img className="kyle" src={Kyle} height="720" width="640" alt="Kyle stands couple feet from the wall that has lots of full loaded with books" />
     </div>
 
 

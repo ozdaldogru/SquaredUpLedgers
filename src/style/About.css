@@ -42,12 +42,18 @@
 }
 }
 
-@media screen and (max-width: 720px) {
+
+
+ @media screen and (max-width: 1200px) {
+
+
+    .kyle
+    {
+        width: 360px;
+        height: 420px;
    
-    .paragraph {
-        border-top: solid 6px lightgray;
-        border-left: none;
-        width: 100%;
-    }
     
     }
+ width: 720px;
+}
+    
